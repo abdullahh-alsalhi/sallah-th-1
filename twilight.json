@@ -26,10 +26,25 @@
     ],
     "settings": [
         {
+            "id": "custom_paragraph_text",
+            "type": "string",
+            "format": "text",
+            "label": "String",
+            "description": "هنا يمكنك تغير نص الاسألة الشائعة",
+            "labelHTML": null,
+            "placeholder": "Placeholder text ..",
+            "icon": "sicon-format-text-alt",
+            "value": "نص الفقرة المخصص",
+            "multilanguage": false,
+            "required": false,
+            "minLength": 6,
+            "maxLength": 30
+        },
+        {
             "id": "squar_photo_bg_image_size",
             "type": "items",
             "format": "dropdown-list",
-            "label": "طريقة عرض الصور في قسم قائمة عناصر ",
+            "label": "طريقة عرض الصور في قسم قائمة عناصر",
             "description": null,
             "labelHTML": null,
             "icon": "sicon-list",
