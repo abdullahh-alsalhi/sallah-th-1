@@ -26,6 +26,21 @@
     ],
     "settings": [
         {
+            "id": "custom_paragraph_text_q",
+            "type": "string",
+            "format": "text",
+            "label": "سؤال",
+            "description": "هنا تحط سؤال 1",
+            "labelHTML": null,
+            "placeholder": "سؤال 1",
+            "icon": "sicon-format-text-alt",
+            "value": "سؤال 1",
+            "multilanguage": false,
+            "required": false,
+            "minLength": 6,
+            "maxLength": 30
+        },
+        {
             "id": "custom_paragraph_text",
             "type": "string",
             "format": "text",
